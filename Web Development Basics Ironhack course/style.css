@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: midnightblue;
+    font-size: 1.125em;
+  
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 15em;
+    box-shadow: 0 0.25em 1em -0.25em lightsteelblue;
+  }
+  
+  h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    color: steelblue;
+  }
+  
+  button {
+    background-color: midnightblue;
+    color: white;
+    border: 0;
+    font: inherit;
+    padding: 1em;
+  }
+  
+  .hero {
+    max-width: 64em;
+    padding: 1em;
+    margin: 0 auto;
+  
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+      gap: 0;
+    }
+  }

@@ -1,0 +1,14 @@
+{
+    "name": "the-basics-of-web-development-codealong",
+    "version": "1.0.0",
+    "main": "index.html",
+    "license": "MIT",
+    "scripts": {
+      "start": "serve",
+      "build": "echo 'No build required'"
+    },
+    "devDependencies": {
+      "serve": "^11.2.0"
+    }
+  }
+  
